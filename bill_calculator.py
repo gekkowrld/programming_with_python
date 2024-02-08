@@ -1,6 +1,9 @@
 #/usr/bin/python3
 
 """
+Electricity Bill Calculator
+====+++++++++++++++++++====
+
 A program to calculate and display the electricity bill for
     a given customer based on the units consumed.
 The charges are as follows:
