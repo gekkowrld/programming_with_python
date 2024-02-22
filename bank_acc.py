@@ -32,6 +32,7 @@ from uuid import uuid1 as r_acc_num
 
 
 class BankAccount:
+    """ """
     def __init__(self, acc_num, customer_name):
         self.acc_num = acc_num
         self.open_d = datetime.now()
@@ -39,10 +40,20 @@ class BankAccount:
         self.balance = 0
 
     def deposit(self, amount):
+        """
+
+        :param amount: 
+
+        """
         self.balance += amount
         return self.balance
 
     def withdraw(self, amount):
+        """
+
+        :param amount: 
+
+        """
         if amount > self.balance:
             return "Insufficient Funds"
         else:
@@ -50,9 +61,11 @@ class BankAccount:
             return self.balance
 
     def check_balance(self):
+        """ """
         return self.balance
 
     def customer_details(self):
+        """ """
         return self.customer_name, self.acc_num, self.open_d, self.balance
 
 
