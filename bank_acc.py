@@ -31,6 +31,7 @@ from uuid import uuid1 as r_acc_num
 
 class BankAccount:
     """ """
+
     def __init__(self, acc_num, customer_name):
         self.acc_num = acc_num
         self.open_d = datetime.now()
