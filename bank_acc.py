@@ -40,7 +40,7 @@ class BankAccount:
     def deposit(self, amount):
         """
 
-        :param amount: 
+        :param amount:
 
         """
         self.balance += amount
@@ -49,7 +49,7 @@ class BankAccount:
     def withdraw(self, amount):
         """
 
-        :param amount: 
+        :param amount:
 
         """
         if amount > self.balance:
