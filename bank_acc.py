@@ -76,7 +76,8 @@ while loop.lower() == "y":
     else:
         name, acc, opend, bala = bank_d.customer_details()
         print(
-            f"\n========================\nCustomer Name: {name}\nAccount Number: {acc}\nAccount Open Date: {opend}\nBalance: {bala}")
+            f"\n========================\nCustomer Name: {name}\nAccount Number: {acc}\nAccount Open Date: {opend}\nBalance: {bala}"
+        )
         if ba_op == 1:
             print(f"Withdrawn amount: {amount}")
             print("\n========================\n")
