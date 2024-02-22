@@ -1,5 +1,4 @@
 #!/bin/python3
-
 """
 BankAccount
 ===========
@@ -26,7 +25,6 @@ The "UI" is kep clean and clutterless.
 A clear sepearation between one operation and another one is kept when doing the loop.
 
 """
-
 from datetime import datetime
 from uuid import uuid1 as r_acc_num
 
