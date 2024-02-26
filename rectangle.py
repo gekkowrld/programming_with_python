@@ -1,5 +1,4 @@
 #!/bin/python3
-
 """
 A program to compute:
     - Area of a rectangle

@@ -2,7 +2,6 @@
 A class to describe the calculate the perimeter of a circle and area.
 The radius is initialized
 """
-
 from math import pi as PI
 from math import pow
 
