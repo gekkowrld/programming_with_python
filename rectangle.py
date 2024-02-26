@@ -21,7 +21,7 @@ class Rectangle:
         return self.lenght * self.width
 
     def perimeter(self):
-        return 2*(self.lenght + self.width)
+        return 2 * (self.lenght + self.width)
 
 
 clen = int(input("Enter len: "))
