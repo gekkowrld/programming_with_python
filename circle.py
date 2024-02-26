@@ -8,6 +8,7 @@ from math import pow
 
 class Circle:
     """ """
+
     def __init__(self, radius=7):
         self.radius = radius
 
@@ -23,4 +24,5 @@ class Circle:
 radius = float(input("Enter the radius of the circle: "))
 circ = Circle(radius)
 print(f"The area of a circle of radius {radius} is {circ.area()}")
-print(f"The circumference of a circle of radius {radius} is {circ.perimeter()}")
+print(
+    f"The circumference of a circle of radius {radius} is {circ.perimeter()}")

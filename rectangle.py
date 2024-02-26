@@ -13,6 +13,7 @@ The arguments to be passed:
 
 class Rectangle:
     """ """
+
     def __init__(self, lenght, width):
         self.lenght = lenght
         self.width = width

@@ -1,5 +1,6 @@
 class Temperature:
     """ """
+
     def __init__(self, temp):
         self.temp = temp
 
@@ -16,8 +17,7 @@ temp_v = 1
 choice = int(
     input(
         "What temperature will you want to convert:\n(1)Farenheit->Celcius\n(2)Celcius->Farenheit?\n\t: "
-    )
-)
+    ))
 if choice == 1:
     temp_v = float(input("Enter the temperature °F: "))
     temp__t = Temperature(temp_v)
