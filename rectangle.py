@@ -10,6 +10,8 @@ The arguments to be passed:
     - width (int)
 
 """
+
+
 class Rectangle:
     def __init__(self, lenght, width):
         self.lenght = lenght
@@ -20,6 +22,7 @@ class Rectangle:
 
     def perimeter(self):
         return 2*(self.lenght + self.width)
+
 
 clen = int(input("Enter len: "))
 win = int(input("Enter width: "))
