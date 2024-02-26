@@ -1,11 +1,14 @@
 class Temperature:
+    """ """
     def __init__(self, temp):
         self.temp = temp
 
     def convertFahrenheit(self):
+        """ """
         return ((9 / 5) * self.temp) + 32
 
     def convertCelcius(self):
+        """ """
         return ((5 / 9) * self.temp) - 32
 
 

@@ -13,14 +13,17 @@ The arguments to be passed:
 
 
 class Rectangle:
+    """ """
     def __init__(self, lenght, width):
         self.lenght = lenght
         self.width = width
 
     def area(self):
+        """ """
         return self.lenght * self.width
 
     def perimeter(self):
+        """ """
         return 2 * (self.lenght + self.width)
 
 

@@ -8,13 +8,16 @@ from math import pow
 
 
 class Circle:
+    """ """
     def __init__(self, radius=7):
         self.radius = radius
 
     def area(self):
+        """ """
         return PI * pow(self.radius, 2)
 
     def perimeter(self):
+        """ """
         return PI * (self.radius * 2)
 
 
