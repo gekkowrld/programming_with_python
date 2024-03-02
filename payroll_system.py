@@ -14,6 +14,7 @@ The method is for calculating the payroll amount.
 
 This is just to demonstrate inheritance rather than a full-blown payroll system.
 """
+
 from uuid import uuid1 as emp_uuid
 
 
@@ -65,7 +66,8 @@ class CommisionEmployee(SalaryEmployee):
 t_emp = int(
     input(
         "Choose the employee type:\n\t(1): Salary Employee\n\t(2)Hourly Employee\n\t(3)Commision Employee\n\t\t:>"
-    ))
+    )
+)
 
 
 def get_required():
