@@ -80,9 +80,9 @@ def get_required():
 def print_info(emp_id, name, salary):
     """
 
-    :param emp_id:
-    :param name:
-    :param salary:
+    :param emp_id: param name:
+    :param salary: 
+    :param name: 
 
     """
     print("\n=================\n")
