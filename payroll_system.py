@@ -65,8 +65,7 @@ class CommisionEmployee(SalaryEmployee):
 t_emp = int(
     input(
         "Choose the employee type:\n\t(1): Salary Employee\n\t(2)Hourly Employee\n\t(3)Commision Employee\n\t\t:>"
-    )
-)
+    ))
 
 
 def get_required():
