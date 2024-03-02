@@ -14,7 +14,6 @@ The method is for calculating the payroll amount.
 
 This is just to demonstrate inheritance rather than a full-blown payroll system.
 """
-
 from uuid import uuid1 as emp_uuid
 
 
